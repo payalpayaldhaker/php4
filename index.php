@@ -1,10 +1,21 @@
+
+
+        <?php 
+        
+            $title ='my fisrt php';    
+                //''=string
+        
+        ?>
+
+
+
 <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php  echo 'php4';  ?></title>
+        <title><?php  echo  $title;  ?></title>
         <style>
         
         
@@ -13,9 +24,11 @@
     <body>
 
             <?php 
-                    echo 'payal dhakad'.'   '.'neemuch'.'  '.'payal';
-                    
-                    
+                    echo 'payal dhakad'.'   '.'neemuch'.'  '.'mp';
+                        echo '<br>';
+                        echo '<br>';
+                        echo '<br>';
+                    echo 'my'. ' '.'first'.'  '.'website'.' '.'php';
             ?>
 
 
